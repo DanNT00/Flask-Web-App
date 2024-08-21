@@ -22,6 +22,7 @@ Steps to run the application:
 
 4. On Powershell, type in order:
    A) npx create-next-app@latest my-app ### This will install react. ###
+   
    √ TypeScript? ... No
    √ ESLint? ... No
    √ CSS? ... No
@@ -35,7 +36,7 @@ Steps to run the application:
    F) Delete the file "page.js"
    D) npm run dev
 
-5. On Bash, type:
+6. On Bash, type:
    A) py -m venv venv - Windows ||| python3 -m venv venv - Linux/Mac
    B) source venv/Scripts/activate - For Windows ||| source venv/bin/activate - For Mac/Linux
    C) pip install Flask - Windows ||| pip3 install Flask - Linux/Mac
@@ -43,8 +44,8 @@ Steps to run the application:
    E) pip install Flask-SQLAlchemy
    E) py app.py
 
-6. Open your web browser and go to localhost:3000 (or depending on the port when you ran npm run dev)
+7. Open your web browser and go to localhost:3000 (or depending on the port when you ran npm run dev)
 
-7. Type the login credentials:
+8. Type the login credentials:
    user123
    pass123
