@@ -23,6 +23,7 @@ Steps to run the application:
 3. Open 2 Terminals. One for Powershell, one for Git bash.
 
 4. On Powershell, type in order:
+   
    A) npx create-next-app@latest my-app ### This will install react. ###
    
          √ TypeScript? ... No
@@ -51,7 +52,7 @@ Steps to run the application:
    D) npm run dev
    
 
-6. On Bash, type:
+5. On Bash, type:
    
    A) py -m venv venv - Windows ||| python3 -m venv venv - Linux/Mac
    
@@ -66,9 +67,9 @@ Steps to run the application:
    E) py app.py
    
 
-8. Open your web browser and go to localhost:3000 (or depending on the port when you ran npm run dev)
+6. Open your web browser and go to localhost:3000 (or depending on the port when you ran npm run dev)
 
-9. Type the login credentials:
+7. Type the login credentials:
     
       user123
    
