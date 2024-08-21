@@ -29,12 +29,19 @@ Steps to run the application:
    √`src/` directory? ... No
    √ App Router? (recommended) ... Yes
    √ customize the default import alias (@/\*)? ... No
+   
    B) cd my-app
+   
    C) npm install axios
+   
    D) npm install bootstrap
+   
    E) Create a folder called "pages" on /my-app/app/
+   
    F) Delete the file "page.js"
+   
    D) npm run dev
+   
 
 6. On Bash, type:
    A) py -m venv venv - Windows ||| python3 -m venv venv - Linux/Mac
