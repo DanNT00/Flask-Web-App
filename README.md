@@ -25,17 +25,17 @@ Steps to run the application:
 4. On Powershell, type in order:
    A) npx create-next-app@latest my-app ### This will install react. ###
    
-      √ TypeScript? ... No
+         √ TypeScript? ... No
    
-      √ ESLint? ... No
+         √ ESLint? ... No
    
-      √ CSS? ... No
+         √ CSS? ... No
    
-      √`src/` directory? ... No
+         √`src/` directory? ... No
    
-      √ App Router? (recommended) ... Yes
+         √ App Router? (recommended) ... Yes
    
-      √ customize the default import alias (@/\*)? ... No
+         √ customize the default import alias (@/\*)? ... No
    
    
    B) cd my-app
