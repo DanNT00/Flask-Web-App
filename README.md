@@ -16,61 +16,64 @@ Be sure to check requirements.txt for the list of dependencies needed to run thi
 
 Steps to run the application:
 
-1. Create a New Folder
+1.  Create a folder.
 
-2. Open the root folder (Flask-Web-App) with VS Code.
+2.  Clone the repo (Not inside the folder you just created. Clone it somewhere you want.).
 
-3. Open 2 Terminals. One for Powershell, one for Git bash.
+    Example:
 
-4. On Powershell, type in order:
-   
-   A) npx create-next-app@latest my-app ### This will install react. ###
-   
-         √ TypeScript? ... No
-   
-         √ ESLint? ... No
-   
-         √ CSS? ... No
-   
-         √`src/` directory? ... No
-   
-         √ App Router? (recommended) ... Yes
-   
-         √ customize the default import alias (@/\*)? ... No
-   
-   
-   B) cd my-app
-   
-   C) npm install axios
-   
-   D) npm install bootstrap
-   
-   E) Create a folder called "pages" on /my-app/app/
-   
-   F) Delete the file "page.js"
-   
-   D) npm run dev
-   
+    /Documents/New Folder/
 
-5. On Bash, type:
-   
-   A) py -m venv venv - Windows ||| python3 -m venv venv - Linux/Mac
-   
-   B) source venv/Scripts/activate - For Windows ||| source venv/bin/activate - For Mac/Linux
-   
-   C) pip install Flask - Windows ||| pip3 install Flask - Linux/Mac
-   
-   D) pip install Flask-cors
-   
-   E) pip install Flask-SQLAlchemy
-   
-   E) py app.py
-   
+    /Documents/Flask-Web-App/
 
-6. Open your web browser and go to localhost:3000 (or depending on the port when you ran npm run dev)
+3.  Open the New Folder(/Documents/New Folder/) with VS Code.
 
-7. Type the login credentials:
-    
-      user123
-   
-      pass123
+4.  Open 2 Terminals. One for Powershell, one for Git bash.
+
+5.  On Powershell Terminal, type:
+
+    A) npx create-next-app@latest my-app ### This will install react dependencies. ###
+
+          √ TypeScript? ... No
+
+          √ ESLint? ... No
+
+          √ CSS? ... No
+
+          √`src/` directory? ... No
+
+          √ App Router? (recommended) ... Yes
+
+          √ customize the default import alias (@/\*)? ... No
+
+    B) cd my-app
+
+    C) npm install axios
+
+    D) npm install bootstrap
+
+6.  Delete the "app" folder from (/Documents/New Folder/my-app/)
+
+7.  Copy the folders "pages" and "styles" from the cloned repo and paste it into (/Documents/New Folder/my-app/)
+
+8.  On Bash Terminal, type:
+
+    A) py -m venv venv --- For Windows ||| python3 -m venv venv --- For Linux/Mac
+
+    B) source venv/Scripts/activate - For Windows ||| source venv/bin/activate - For Mac/Linux
+
+    C) pip install Flask Flask-cors Flask-SQLAlchemy --- For Windows ||| pip3 install Flask Flask Flask-cors Flask-SQLAlchemy --- For Linux/Mac
+
+9.  Copy the folder "instance" and file "app.py" from the cloned repo and paste it inside (/Documents/New Folder/)
+
+10. Type on your Powershell terminal: npm run dev
+
+11. Type on your Bash terminal: py app.py
+
+12. Open your web browser and go to localhost:3000 (or depending on the local port when you ran npm run dev)
+
+13. Type the login credentials:
+
+    user123
+
+    pass123
