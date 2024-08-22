@@ -1,6 +1,6 @@
 # Flask Web App
 
-This is a simple Flask Web App using Python, ReactJS/NextJS.
+This is a simple Flask Web App where you can add, edit, delete, view items with prices using Python, ReactJS/NextJS.
 
 It is my actually first time working with Flask and ReactJS/NextJS so I had to scrape through the internet to make this web app.
 
