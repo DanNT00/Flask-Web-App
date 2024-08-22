@@ -18,7 +18,7 @@ Steps to run the application:
 
 1. Create a New Folder
 
-2. Open the root folder with VS Code.
+2. Open the root folder (Flask-Web-App) with VS Code.
 
 3. Open 2 Terminals. One for Powershell, one for Git bash.
 
